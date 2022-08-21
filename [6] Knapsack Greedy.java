@@ -78,11 +78,11 @@ if(i<n)
 x[i]=u/weight[i];
 tp = tp +(x[i] * profit[i]);
 }
-System.out.println("\n The resultant vector is");
+System.out.println("\n The resultant vector is\n");
 for(i=0; i<n; i++)
 {
-System.out.println("item"+(int)item[i]+":"+x[i]);
+System.out.println("item - "+(int)item[i]+" : "+x[i]);
 }
-System.out.println("Maximum profit is "+tp);
+System.out.println("Maximum profit is = "+tp);
 }
 }
