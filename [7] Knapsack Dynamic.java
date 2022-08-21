@@ -15,7 +15,7 @@ else if(j<w[i])
 {
 v[i][j] = knap(i-1,j);
 }
-  
+
 else
 {
 v[i][j] = Math.max(knap(i-1,j),value[i]+knap(i-1,j-w[i]));
